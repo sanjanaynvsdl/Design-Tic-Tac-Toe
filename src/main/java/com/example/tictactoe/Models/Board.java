@@ -11,5 +11,5 @@ public class Board {
 
     //size
     private int size;
-    private List<List<Move>> moves;
+    private List<List<Cell>> board;
 }

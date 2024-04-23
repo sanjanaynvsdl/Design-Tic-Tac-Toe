@@ -10,9 +10,9 @@ import java.util.List;
 public class Game {
     private Board board;
     private List<List<Player>> players;
-//    private List<List<Move>> moves; Already in Board
+    private List<Move> moves;
     private EGameStack gameStack;
-    //winner?
-    //current index?
+    private Player winner;
+    private int currIndex;
 
 }
